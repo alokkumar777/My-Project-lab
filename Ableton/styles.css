@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif !important;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #0000ff; /* Deep Blue */
+  --secondary-color: #ff764d; /* Vibrant Orange */
+  --accent-color: #fbffa7; /* Soft Yellow */
+  --info-color: #b1c5ff; /* Calm Blue */
+  --success-color: #b6ffc0; /* Soft Green */
+  --highlight-color: #d5b3ff; /* Light Purple */
+  --text-color: #001219;
+}
+
+/* ====================== nav bar ==================== */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.nav-links li:last-child a {
+  color: var(--secondary-color);
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 1.5rem;
+}
+
+.buttons button:first-child {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+    border-width: 0.12rem;
+}
+
+.buttons button:first-child:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    /* border-color: var(--primary-color); */
+}
