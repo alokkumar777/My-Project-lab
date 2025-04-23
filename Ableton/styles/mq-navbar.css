@@ -73,6 +73,7 @@
   
   .buttons button {
     margin: 0.5rem 0;
+    z-index: 10;
   }
   
   .buttons button:nth-child(2) {
